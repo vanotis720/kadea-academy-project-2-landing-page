@@ -96,7 +96,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .texted div {
@@ -113,27 +113,84 @@ body {
     text-wrap: wrap;
 }
 
-.learn-more a{
+
+.learn-more a {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    border-bottom: 10px solid #FFF5BB;
 }
 
 .background-first {
     background-image: url('images/image-graphic-design.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
 
+}
+
+.background-first div {
+    width: 50%;
+}
+
+.background-first h3 {
+    text-wrap: wrap;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.background-first p {
+    text-align: center;
+    text-wrap: wrap;
 }
 
 .background-second {
     background-image: url('images/image-photography.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.background-second div {
+    width: 50%;
+}
+
+.background-second h3 {
+    text-wrap: wrap;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.background-second p {
+    text-align: center;
+    text-wrap: wrap;
 }
 
 .testimonies {
     flex-basis: 100%;
     background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony {
+    flex-basis: 25%;
+    
 }
 
 .footer {
