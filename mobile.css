@@ -10,7 +10,6 @@
     height: 100vh;
     padding: 0px;
     padding-top: 20px;
-    flex-basis: 100%;
 }
 
 .navigation {
@@ -111,4 +110,25 @@
 
 .galleries .element {
     flex-basis: 50%;
+}
+
+.footer {
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 50px 0px;
+}
+
+.footer-logo {
+    flex-basis: 100%;
+}
+
+.bottom-nav {
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+.social-icons {
+    flex-basis: 100%;
+    margin-top: 50px;
 }
