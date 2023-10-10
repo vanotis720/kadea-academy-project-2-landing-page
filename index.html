@@ -7,6 +7,7 @@
     <title>Project#02 - landing page pour une agence</title>
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
 </head>
 
 <body>
@@ -15,7 +16,18 @@
             <div class="logo">
                 <img src="images/logo.svg" alt="logo principal" class="logo-principal">
             </div>
-            <div class="navigation">
+            <a href="#menu" class="hamburger-menu">
+                <img src="images/icon-hamburger.svg" alt="mobile menu">
+            </a>
+            <ul class="menu" id="menu">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <span class="btn-contact-small">
+                    <a href="#">contact</a>
+                </span>
+            </ul>
+            <div class="navigation" id="navigation">
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Projects</a>

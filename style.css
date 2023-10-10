@@ -15,7 +15,6 @@ body {
     flex-basis: 100%;
     height: 80vh;
     padding: 30px;
-    background-color: aqua;
     background-image: url('images/image-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,6 +24,7 @@ body {
 
 .logo {
     flex-basis: 10%;
+    margin-left: 20px;
 }
 
 .navigation {
@@ -32,6 +32,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
+}
+
+.hamburger-menu {
+    display: none;
 }
 
 .navigation a {
@@ -227,7 +231,6 @@ body {
     flex-basis: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
 }
 
 .galleries .element {
