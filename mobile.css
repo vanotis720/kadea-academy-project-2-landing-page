@@ -12,6 +12,11 @@
     padding-top: 20px;
 }
 
+.cta img {
+    flex-basis: 100%;
+    padding-bottom: 50px;
+}
+
 .navigation {
     display: none;
 }
