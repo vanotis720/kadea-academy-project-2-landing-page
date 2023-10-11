@@ -113,10 +113,10 @@
 }
 
 .footer {
-    height: 100vh;
+    height: 40vh;
     flex-wrap: wrap;
     align-content: center;
-    padding: 50px 0px;
+    padding: 20px 0px;
 }
 
 .footer-logo {
@@ -125,10 +125,10 @@
 
 .bottom-nav {
     flex-basis: 100%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .social-icons {
     flex-basis: 100%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
